@@ -1,0 +1,72 @@
+[
+	--------------------Csv/Mods/Item目录--------------------
+	{
+		key_name: 'csvdef',
+		src_path: 'G:/env1_trunk/bin_externel/res/csvdef',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Script/csvdef',
+	},
+	{
+		key_name: 'entity',
+		src_path: 'G:/env1_trunk/bin_externel/res/entity',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/entity',
+	},
+	{
+		key_name: 'items',
+		src_path: 'G:/env1_trunk/bin_externel/res/items',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/items',
+	},
+	{
+		key_name: 'particle',
+		src_path: 'G:/env1_trunk/bin_externel/res/particles',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/particles',
+	},
+	--------------------Art目录下的喷漆资源--------------------
+	{
+		key_name: 'spray',
+		src_path: 'G:\env1_trunk\bin_externel\miniuidesign\miniworld\assets\t_shop\entryRes',
+		dst_path: 'G:\MiniGame_CN\AssetRuntime\Art\miniuidesign\miniworld\assets\t_shop\entryRes',
+	},
+
+	--------------------UI目录下的商业化资源--------------------
+	{
+		key_name: 'chatbubble',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/chatbubble',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/chatbubble',
+	},
+	{
+		key_name: 'gunicons',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/gunicons',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/gunicons',
+	},
+	{
+		key_name: 'headframes',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/headframes',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/headframes',
+	},
+	{
+		key_name: 'rideicons',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/rideicons',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/rideicons',
+	},
+	{
+		key_name: 'rideskills',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/rideskillicons',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/rideskillicons',
+	},
+	{
+		key_name: 'roleicons',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/roleicons',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/roleicons',
+	},
+	{
+		key_name: 'skineffects',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/skineffecticons',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/skineffecticons',
+	},
+
+	{
+		key_name: 'texture0',
+		src_path: 'G:/env1_trunk/bin_externel/res/ui/mobile/texture0/bigtex',
+		dst_path: 'G:/MiniGame_CN/AssetRuntime/Assets/Resources/ui/mobile/texture0/bigtex',
+	},
+]
