@@ -1,0 +1,1250 @@
+commit be94f263b1941d54437420e8d054d431125ab3e2
+Merge: acbe8a753b 15e4e888eb
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 24 10:31:19 2023 +0000
+
+    Merge branch 'luoshuai_release-0329v_bugfix' into 'release-0329v'
+    
+    [bugfix]【【互动剧】互动剧内购拉起充值界面的UI有残留】
+    
+    See merge request minichina/bin_externel!569
+
+commit 15e4e888eb98213780215f3971905940947703e3
+Author: luoshuai <luoshuai@mini1.cn>
+Date:   Fri Mar 24 16:06:19 2023 +0800
+
+    [bugfix]规范一下变量命名
+
+M	res/ui/mobile/mvc/shop/ShopCtrl.lua
+
+commit 67d9d3cf7e9be124e85ae596310c5ca5ac71099d
+Author: luoshuai <luoshuai@mini1.cn>
+Date:   Fri Mar 24 15:52:56 2023 +0800
+
+    [bugfix]【【互动剧】互动剧内购拉起充值界面的UI有残留】
+    https://www.tapd.cn/22897851/bugtrace/bugs/view/1122897851001070970
+
+M	res/ui/mobile/mvc/shop/ShopCtrl.lua
+
+commit acbe8a753b719bf7009d4376efc4d99c8869f779
+Merge: 4d6dbfa8f8 b7950ba885
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 24 07:52:22 2023 +0000
+
+    Merge branch 'fix-release-0329v-wyw' into 'release-0329v'
+    
+    【BUGFIX】周年庆活动-冠军任务埋点多次上报bug
+    
+    See merge request minichina/bin_externel!560
+
+commit b7950ba885796983bb7766cff5b147f5eb99414c
+Merge: 7288edd5bf 4d6dbfa8f8
+Author: wuyuwang <wuyuwang@mini1.cn>
+Date:   Fri Mar 24 15:32:06 2023 +0800
+
+    Merge branch 'release-0329v' of http://client_gitlab.miniworldplus.com:83/minichina/bin_externel into fix-release-0329v-wyw
+
+commit 4d6dbfa8f8b40528c555a90d30636a3927e0577c
+Merge: b0724cf35d 5edbb9fcc6
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 24 06:55:56 2023 +0000
+
+    Merge branch 'feature-kuaishou-bind-0315v-hotfix' into 'release-0329v'
+    
+    【BUGFIX】【【渠道绑定】快手渠道第三方QQ微信登录绑定失败】绑定全量
+    
+    See merge request minichina/bin_externel!566
+
+commit 5edbb9fcc6c7030aa5f86dc6714563282ef420e4
+Merge: 4d950b8538 b0724cf35d
+Author: xiaoqiang <xiaoqiang@mini1.cn>
+Date:   Fri Mar 24 11:23:30 2023 +0800
+
+    Merge branch 'release-0329v' into feature-kuaishou-bind-0315v-hotfix
+    
+    # Conflicts:
+    #       res/ui/mobile/globaldata.lua
+
+commit b0724cf35d8b558bdfc4daa2f24f9e94b958447c
+Merge: 5882c01f10 bd0d56191e
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 23 08:04:06 2023 +0000
+
+    Merge branch 'release-0329v-ugc' into 'release-0329v'
+    
+    [bugfix]1.图文信息刷新报错
+    
+    See merge request minichina/bin_externel!565
+
+commit bd0d56191e604d9fdb990b5c9b891ade5fc10df2
+Author: qinpeng <qinpeng@mini1.cn>
+Date:   Thu Mar 23 14:40:55 2023 +0800
+
+    [bugfix]1.图文信息刷新报错
+
+M	res/luascript/services/graphics.lua
+
+commit 5882c01f10213b2df71328e7c902ce98f4c8cd8f
+Merge: 7682e4ac2d cf6c7f596e
+Author: 李达 <lida@mini1.cn>
+Date:   Wed Mar 22 07:23:18 2023 +0000
+
+    Merge branch 'release-0329v-chf-bugfix' into 'release-0329v'
+    
+    【【冰原福利】在游戏大厅同时点击 “联机大厅 ”和 “冰原福利”，进入冰原地图再退出地图后返回了联机大厅界面，且联机大厅界面无法关闭】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001072226
+    
+    See merge request minichina/bin_externel!562
+
+commit cf6c7f596ec7d57ee1bb56bee201d994180c123b
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Tue Mar 21 18:30:25 2023 +0800
+
+    [bugfix]联机活动和冰原活动同时打开时层级问题导致点击失效
+
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+
+commit 7288edd5bfefb175018f78c02500defa6265cae0
+Merge: 38ed0b5828 7682e4ac2d
+Author: wuyuwang <wuyuwang@mini1.cn>
+Date:   Tue Mar 21 17:03:48 2023 +0800
+
+    Merge branch 'release-0329v' of http://client_gitlab.miniworldplus.com:83/minichina/bin_externel into fix-release-0329v-wyw
+
+commit 38ed0b58283f59d8ca3732dfe12ecdceddfcc191
+Author: wuyuwang <wuyuwang@mini1.cn>
+Date:   Tue Mar 21 17:02:19 2023 +0800
+
+    【BUGFIX】周年庆活动-冠军任务埋点多次上报bug
+
+M	res/miniui/module/activity/timeLimited/Act_50/AnniActInterface.lua
+
+commit ee74662a8a0cd4c34cb6beb1cd21062a8e0ea565
+Merge: edee817b7c 7682e4ac2d
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Tue Mar 21 16:59:01 2023 +0800
+
+    Merge branch 'release-0329v' into release-0329v-chf-bugfix
+
+commit 7682e4ac2d6914a4c39e7a5396b56706d5f115f9
+Merge: fe7519d6fe d7ec1d1028
+Author: 李达 <lida@mini1.cn>
+Date:   Tue Mar 21 08:43:42 2023 +0000
+
+    Merge branch 'bugfix-ActivePlayerBenefits' into 'release-0329v'
+    
+    [bugfix]修复失败回调没判空导致的报错
+    
+    See merge request minichina/bin_externel!549
+
+commit fe7519d6fecfb277ce05a5e7b4f80801b70bb06d
+Merge: 445b29df6b a12ab0277a
+Author: 李达 <lida@mini1.cn>
+Date:   Tue Mar 21 08:43:22 2023 +0000
+
+    Merge branch 'release-0329v-ugc' into 'release-0329v'
+    
+    [bugfix]【【工具升级】高级编辑模式界面，使用B打开/关闭背包后鼠标会锁定准星模式。】https://www.tapd.cn/22897851/bug...
+    
+    See merge request minichina/bin_externel!554
+
+commit 445b29df6b169fbaed1466fb1024c31c09844f71
+Merge: 6009363d64 d972d58041
+Author: 李达 <lida@mini1.cn>
+Date:   Tue Mar 21 08:43:03 2023 +0000
+
+    Merge branch 'wds/bugfix-0329' into 'release-0329v'
+    
+    【【好友送礼】从周年活动进入私聊界面，赠送礼物页面层级不对】
+    
+    See merge request minichina/bin_externel!556
+
+commit 6009363d64b81f472cd48df3f7f1b4a84ab331f7
+Merge: 1940a87e07 edee817b7c
+Author: 李达 <lida@mini1.cn>
+Date:   Tue Mar 21 08:42:40 2023 +0000
+
+    Merge branch 'release-0329v-chf-bugfix' into 'release-0329v'
+    
+    【【冰原福利】从工坊搜索进入冰原速递地图再退出地图，工坊界面与冰原活动界面重叠，无法关闭退出】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001072011
+    
+    See merge request minichina/bin_externel!558
+
+commit edee817b7cdf3c1d3851fe51296187a8ceb0b5fe
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Tue Mar 21 16:02:28 2023 +0800
+
+    【bugfix】冰原活动界面只有通过活动界面进入地图退出时才打开活动界面
+
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+
+commit 1940a87e0746c331e048897b9f8e6f86a4952c44
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Tue Mar 21 14:24:00 2023 +0800
+
+    道具名称+活动描述+分布式下载更新
+
+M	res/csvdef/itemdef.csv
+M	res/csvdef/restoload.csv
+M	res/csvdef/stringdef.csv
+
+commit a12ab0277a989270735b5971af7cd98e4b6c38ef
+Author: hongtao <hongtao@mini1.cn>
+Date:   Tue Mar 21 14:12:55 2023 +0800
+
+    [bugfix]  【【触发器】飞行按钮会在触发器画布上】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001072033
+
+M	res/miniui/module/ugc/resourceLib/ui/SceneEditorResourceMainFrame/SceneEditorResourceList.lua
+M	res/miniui/module/ugc/sceneEditor/UgcItems/UgcBluePrint/BluePrintList/UgcBluePrintListCtrl.lua
+M	res/miniui/module/ugc/visualCode/common/VisualCodeInterface.lua
+
+commit 37832a8eeeb648c4238510d6af0dfd91b7c6d898
+Author: lida <lida@mini1.cn>
+Date:   Tue Mar 21 00:25:23 2023 -0400
+
+    Auto Commit Transpng
+
+A	res/entity/140319/male.ktx
+A	res/entity/140319/male.pvr
+A	res/entity/140319/male1.ktx
+A	res/entity/140319/male1.pvr
+A	res/entity/140319/male1_alpha.ktx
+A	res/entity/140319/male2.ktx
+A	res/entity/140319/male2.pvr
+A	res/entity/140319/male2_alpha.ktx
+A	res/entity/140319/male3.ktx
+A	res/entity/140319/male3.pvr
+A	res/entity/140319/male3_alpha.ktx
+A	res/entity/140319/male_alpha.ktx
+A	res/ui/chatbubble/bubble_vip02.ktx
+A	res/ui/chatbubble/bubble_vip02_alpha.ktx
+A	res/ui/chatbubble/bubble_vip03.ktx
+A	res/ui/chatbubble/bubble_vip03_alpha.ktx
+A	res/ui/chatbubble/bubble_vip04.ktx
+A	res/ui/chatbubble/bubble_vip04_alpha.ktx
+A	res/ui/chatbubble/bubble_vip05.ktx
+A	res/ui/chatbubble/bubble_vip05_alpha.ktx
+A	res/ui/chatbubble/bubble_vip06.ktx
+A	res/ui/chatbubble/bubble_vip06_alpha.ktx
+A	res/ui/chatbubble/bubble_vip07.ktx
+A	res/ui/chatbubble/bubble_vip07_alpha.ktx
+A	res/ui/chatbubble/bubble_vip08.ktx
+A	res/ui/chatbubble/bubble_vip08_alpha.ktx
+A	res/ui/chatbubble/bubble_vip09.ktx
+A	res/ui/chatbubble/bubble_vip09_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_bg.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_bg_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_fg.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_fg_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt1.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt1_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt2.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt2_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_popup.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_popup_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_reward_bg.ktx
+A	res/ui/mobile/texture0/bigtex/act_55_img_reward_bg_alpha.ktx
+A	res/ui/mobile/texture0/bigtex/dtxx_beijingtu107.ktx
+A	res/ui/mobile/texture0/bigtex/dtxx_beijingtu107_alpha.ktx
+A	res/ui/roleicons/454.ktx
+A	res/ui/roleicons/454.pvr
+A	res/ui/roleicons/454_alpha.ktx
+A	res/ui/roleicons/avatar_icon1000_1909.ktx
+A	res/ui/roleicons/avatar_icon1000_1909.pvr
+A	res/ui/roleicons/avatar_icon1000_1909_alpha.ktx
+A	res/ui/roleicons/avatar_icon1000_1910.ktx
+A	res/ui/roleicons/avatar_icon1000_1910.pvr
+A	res/ui/roleicons/avatar_icon1000_1910_alpha.ktx
+
+commit 1d15157e5385c011f1ad65bbccaf1606851166b5
+Author: MINIWAN\zhouguinan <man0313@sina.com>
+Date:   Tue Mar 21 11:25:07 2023 +0800
+
+    319
+
+M	res/entity/140319/body.omod
+
+commit d972d58041865db9c9b4dd03bd47b382e1df7a61
+Author: wudeshen <wudeshen@mini1.cn>
+Date:   Tue Mar 21 10:59:59 2023 +0800
+
+    修复bug
+
+M	res/miniui/module/friendgift/FriendGiftDataMgr.lua
+M	res/miniui/module/friendgift/comp_gift/comp_giftCtrl.lua
+M	res/miniui/module/map_share/MapShareInterface.lua
+M	res/ui/mobile/friend.lua
+
+commit a511c227fe77e17e60f8f1fc48367ff6d392bc24
+Merge: de2aad322d 0c98aed9fa
+Author: 李达 <lida@mini1.cn>
+Date:   Mon Mar 20 09:56:05 2023 +0000
+
+    Merge branch 'wangyu/feature-1040096-springGift' into 'release-0329v'
+    
+    【fix】【进入周年活动地图按键盘B键弹出背包之后，准心和鼠标同时出现，按切换准心也没法把鼠标放进去，导致无法移动视角方向】https://www.tapd...
+    
+    See merge request minichina/bin_externel!550
+
+commit 0c98aed9fae5c130d605ec8add92aa3f1915f2ac
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Mon Mar 20 16:35:04 2023 +0800
+
+    【fix】解决合并问题
+
+M	res/luascript/account_def.lua
+M	res/luascript/res/AvatarSkinDef.lua
+M	res/luascript/res/Developer.lua
+
+commit d7ec1d102859c4210bb967f77248539dc30c78aa
+Merge: e3b659819b de2aad322d
+Author: luochenglin <luochenglin@mini1.cn>
+Date:   Mon Mar 20 16:21:02 2023 +0800
+
+    Merge remote-tracking branch 'remotes/origin/release-0329v' into bugfix-ActivePlayerBenefits
+
+commit de2aad322da0f6a6b1ed8fefffc31d72e9b4df03
+Merge: ea12abab66 1db17ddd90
+Author: 李达 <lida@mini1.cn>
+Date:   Mon Mar 20 08:00:59 2023 +0000
+
+    Merge branch 'feature-BuzzRes-0329v' into 'release-0329v'
+    
+    Feature buzz res 0329v
+    
+    See merge request minichina/bin_externel!548
+
+commit 1db17ddd90e18bfb32135086b5652d1a2f2150b0
+Merge: 8a6b98c3bc ea12abab66
+Author: lizhibao <lizhibao@mini1.cn>
+Date:   Mon Mar 20 15:55:49 2023 +0800
+
+    Merge remote-tracking branch 'origin/release-0329v' into feature-BuzzRes-0329v
+
+commit e3b659819b082b2eac27c95e9eb1d94beaae1a2c
+Author: luochenglin <luochenglin@mini1.cn>
+Date:   Mon Mar 20 15:36:03 2023 +0800
+
+    [bugfix]修复失败回调没判空导致的报错
+
+M	res/miniui/module/ActivityActivePlayerBenefits/ActivePlayerBenefitsManager.lua
+
+commit ba7aba0159cf070aaad103983ac2b70d200a1164
+Merge: 8cd3617104 ea12abab66
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Mon Mar 20 14:56:28 2023 +0800
+
+    Merge branch 'release-0329v' into wangyu/feature-1040096-springGift
+
+commit 8cd3617104de55bd3f7b235d004a3220265cb548
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Mon Mar 20 14:55:43 2023 +0800
+
+    【fix】踏春好礼活动界面显示修改
+
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftLottery/main_springGiftLotteryCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftStore/main_springGiftStoreCtrl.lua
+
+commit a9c04ef9f92fc2354da010c384559be2778709b8
+Author: yangmingyang <yangmingyang@mini1.cn>
+Date:   Mon Mar 20 14:52:51 2023 +0800
+
+    【BUGFIX】【ID1071772】【工具升级】触发器设置按钮查看广告判断有问题，无法触发播放广告。
+
+M	res/luascript/ugc/scriptsupport/ScriptSupportTriggerFactor.lua
+M	res/ui/mobile/ad_interface.lua
+M	res/ui/mobile/ad_logic.lua
+
+commit ea12abab660cf66d1e9be8b7691370c7d8d2783f
+Merge: c2cff96818 c1ceb03e11
+Author: 李达 <lida@mini1.cn>
+Date:   Mon Mar 20 06:51:02 2023 +0000
+
+    Merge branch 'release-0329v-chf-bugfix' into 'release-0329v'
+    
+    [bugfix]【【真假币数量提示】藏品界面迷你币不足时充值后迷你币数量没有刷新】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071331
+    
+    See merge request minichina/bin_externel!542
+
+commit ffa64bb2d613f7b3bd79b4e797e5850b36630081
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Mon Mar 20 14:50:02 2023 +0800
+
+    新增活动提示
+
+M	res/csvdef/stringdef.csv
+
+commit c2cff9681847c2b7f3d16bee47aeb1af51290d7d
+Merge: c9d3417e99 8544992086
+Author: 李达 <lida@mini1.cn>
+Date:   Mon Mar 20 06:42:27 2023 +0000
+
+    Merge branch 'bugfix-ActivePlayerBenefits-1071727' into 'release-0329v'
+    
+    高活玩家活动bug修复
+    
+    See merge request minichina/bin_externel!544
+
+commit 3adb756607152c191d19b52fe71103263248ffe2
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Mon Mar 20 11:55:25 2023 +0800
+
+    【fix】【进入周年活动地图按键盘B键弹出背包之后，准心和鼠标同时出现，按切换准心也没法把鼠标放进去，导致无法移动视角方向】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071955
+
+M	res/miniui/module/activity/timeLimited/Act_50/main_anniStartGame/main_anniStartGameCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_53/main_iceSheet_match/main_iceSheet_matchCtrl.lua
+
+commit 8a6b98c3bca34750da799aeef0663ec98387dfa3
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Mon Mar 20 11:51:24 2023 +0800
+
+    皮肤资源
+
+M	res/csvdef/roleskin.csv
+A	res/sounds/skin/skin319.ogg
+A	res/ui/mobile/texture0/bigtex/dtxx_beijingtu107.png
+A	res/ui/roleicons/454.png
+
+commit 51a060fd3676cec5d2ffbc63afde2b1c809f5fba
+Author: chenshaobin <chenshaobin@mini1.cn>
+Date:   Mon Mar 20 11:09:50 2023 +0800
+
+    [bugfix]【【工具升级】高级编辑模式界面，使用B打开/关闭背包后鼠标会锁定准星模式。】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071846
+
+M	res/miniui/module/ugc/resourceBag/ResourceBagMainCtrl.lua
+M	res/miniui/module/ugc/visualCode/view/VisualCodeCustomView/VisualCodeVarEdit.lua
+
+commit 8544992086c6ba63a039dc710a084bcf449ce05c
+Merge: 5dc654a976 c9d3417e99
+Author: luochenglin <luochenglin@mini1.cn>
+Date:   Fri Mar 17 18:35:26 2023 +0800
+
+    Merge remote-tracking branch 'remotes/origin/release-0329v' into bugfix-ActivePlayerBenefits-1071727
+
+commit 5dc654a976aea9e38a9918a283763a05b0e8711b
+Author: luochenglin <luochenglin@mini1.cn>
+Date:   Fri Mar 17 18:30:44 2023 +0800
+
+    [bugfix]修复高活玩家福利弹窗适配、联机大厅返回反复弹、重复播放打开彩蛋动画等问题
+
+M	res/miniui/miniworld/activity_ActivePlayerBenefits.fui
+M	res/miniui/miniworld/activity_ActivePlayerBenefits_atlas0.png
+M	res/miniui/module/ActivityActivePlayerBenefits/ActivePlayerBenefitsManager.lua
+M	res/miniui/module/ActivityActivePlayerBenefits/ActivePlayerBenefits_Egg/ActivePlayerBenefits_EggCtrl.lua
+M	res/ui/mobile/minilobby.lua
+M	res/ui/mobile/mvc/UserTask/UserTaskDataManager.lua
+
+commit c3cb1ce1f36d1b582ceb8be961ced52ca683e034
+Author: fanguicun <fanguicun@mini1.cn>
+Date:   Fri Mar 17 18:02:15 2023 +0800
+
+    act55ui调整
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_add_ticket.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_buy_max.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_buy_ticket.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_draw_one.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_draw_ten.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_tips.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_tipsCheck.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_props.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/item_store.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/list_record.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftGainItem.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftMsgBox.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+
+commit 3a55d918849a862841789b318c477cbf10d96df9
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Fri Mar 17 17:25:13 2023 +0800
+
+    配置更新
+
+M	res/csvdef/itemdef.csv
+M	res/csvdef/roleskin.csv
+
+commit baaaf5f30b52471942dc9353604a54db67a064ee
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Fri Mar 17 17:04:20 2023 +0800
+
+    皮肤配置
+
+M	res/csvdef/roleskin.csv
+A	res/ui/roleicons/avatar_icon1000_1909.png
+A	res/ui/roleicons/avatar_icon1000_1910.png
+
+commit c1ceb03e1181d5fe1cf89bb1e7966ad9d24bd8a1
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Fri Mar 17 17:02:38 2023 +0800
+
+    从活动地图退出时，当活动时间结束不打开活动界面同时不弹出活动结束的提示
+
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+
+commit b03bf7fa7a075ad9f6b3905f29640e1a8b60922c
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Fri Mar 17 16:19:00 2023 +0800
+
+    [bugfix]【【真假币数量提示】藏品界面迷你币不足时充值后迷你币数量没有刷新】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071331
+
+M	miniuidesign/miniworld/assets/SkinCollect_Popup/SkinCollect_Popup_NewSkin.xml
+M	res/miniui/miniworld/SkinCollect_Popup.fui
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+M	res/miniui/module/shop/AuctionSystem/AuctionPop/AuctionPopCtrl.lua
+
+commit eb7396c6acf03e76d9dd327a74222fd56c44904e
+Merge: a4ab43d308 c9d3417e99
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Fri Mar 17 16:08:31 2023 +0800
+
+    Merge branch 'release-0329v' into release-0329v-chf-bugfix
+
+commit 5226c11041b7065791b29b4c301630216f1c2957
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Fri Mar 17 14:47:24 2023 +0800
+
+    【fix】活动界面显示问题修复
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_buy_ticket.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_prop.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_prop_label.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_prop_small.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftGainItem.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftGainItem/main_springGiftGainItemCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftLottery/main_springGiftLotteryCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftMsgBox/main_springGiftMsgBoxCtrl.lua
+M	res/miniui/module/shopGashapon/GashponManger.lua
+M	res/miniui/module/shopGashapon/gashaponCheap/gashaponCheapModel.lua
+
+commit ac9a50a51eda7d859416b46aff8bd7c6bbdc57d6
+Merge: a9b79156cb c9d3417e99
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Fri Mar 17 14:10:39 2023 +0800
+
+    Merge branch 'release-0329v' into wangyu/feature-1040096-springGift
+    
+    # Conflicts:
+    #       res/ui/mobile/globaldata.lua
+
+commit c9d3417e99f3ef8453ffb26528f2f7205516d144
+Merge: 4b522168e4 a4ab43d308
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 17 04:01:24 2023 +0000
+
+    Merge branch 'release-0329v-chf-bugfix' into 'release-0329v'
+    
+    【【藏品集市】购买装扮后，购买弹窗没有关闭】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071319
+    
+    See merge request minichina/bin_externel!534
+
+commit 4b522168e4e76d0f92afd0b187e70b56614c6916
+Merge: 69c57a8ec6 211ef508b6
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 17 04:00:40 2023 +0000
+
+    Merge branch 'wangyu/bugfix-0315v' into 'release-0329v'
+    
+    【fix】0315测试反馈问题及现网热更代码上传
+    
+    See merge request minichina/bin_externel!533
+
+commit 8f2c9a22d2355397ca1300b169cab889a17e0799
+Author: MINIWAN\liuanqi <Lsuannai777>
+Date:   Fri Mar 17 11:50:24 2023 +0800
+
+    修改充值界面赠送迷你币的相关描述
+
+M	res/csvdef/stringdef.csv
+
+commit 7e4483efdba29fe4e6e82c87266093504535f778
+Author: fanyimeng <1184627555@qq.com>
+Date:   Thu Mar 16 17:05:53 2023 +0800
+
+    提高好友代付红包界面层级，避免被其他界面覆盖
+
+M	res/miniui/module/SendFriendRedPocket/SendFriendRPCtrl.lua
+
+commit 54d2ff5b521ae61b4962a189a8f222acd1fab76b
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Thu Mar 16 16:56:21 2023 +0800
+
+    删除空行
+
+M	res/csvdef/animact.csv
+
+commit a9b79156cb0ba4695f5ef8e2df0b39e6c5ec94e7
+Author: MINIWAN\liuanqi <Lsuannai777>
+Date:   Thu Mar 16 16:37:12 2023 +0800
+
+    修改水晶礼券描述
+
+M	res/csvdef/itemdef.csv
+
+commit 57333c8c576967fcf27af9c0058f7331a963d797
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 16:30:23 2023 +0800
+
+    【fix】踏春活动显示问题修复
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_store_exchange.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftStore/main_springGiftStoreView.lua
+
+commit db1f7e7616f18036e881c1a76e9afe96b8ba6c5d
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 16:15:58 2023 +0800
+
+    【fix】活动显示问题修复
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/item_store.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+
+commit 7d1249aa447c96d5b27b3a1156989c6e7a1445be
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 16:08:56 2023 +0800
+
+    【fix】商业化踏春活动-界面显示优化
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/item_store.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+
+commit 5102df84963fd4461c3925307bdc643ddbe8d35e
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 16:00:58 2023 +0800
+
+    【fix】商业化踏春好礼活动验收反馈问题修复
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftMsgBox.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftLottery/main_springGiftLotteryView.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftStore/main_springGiftStoreCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftStore/main_springGiftStoreView.lua
+M	res/ui/mobile/mvc/shop/shopWareInfo/ShopWareInfoCtrl.lua
+M	res/ui/mobile/mvc/shop/shopWareInfo/ShopWareInfoModel.lua
+
+commit a4ab43d308b9babebb0614f35d73b4703f2363c2
+Author: MINIWAN\changhongfeng <changhongfeng@mini1.cn>
+Date:   Thu Mar 16 12:07:49 2023 +0800
+
+    【【藏品集市】购买装扮后，购买弹窗没有关闭】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071319
+    【【冰原福利】活动结束之后，通过其他途径进入冰原场景一或者场景二 的地图，再退出地图之后返回了活动界面】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071432
+    问题修复
+
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+M	res/miniui/module/shop/AuctionSystem/AuctionPop/AuctionPopCtrl.lua
+
+commit 9799e4d23291848314be739514bd2e0ae93c9ec8
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 12:05:45 2023 +0800
+
+    【fix】商业化活动跳转id上传
+
+M	res/ui/mobile/globaldata.lua
+
+commit 211ef508b61a9a618d28a1318daad66419b101da
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 11:58:27 2023 +0800
+
+    【fix】周年庆活动地图封面显示问题修复
+
+M	res/miniui/module/activity/timeLimited/Act_50/main_mapchoose/main_mapchooseView.lua
+
+commit 06e6cdca57f937cd21111d5ef3a2a68150a49d93
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 16 11:55:57 2023 +0800
+
+    【fix】周年庆活动跳转问题和地图封面显示问题修复
+
+M	res/miniui/module/activity/timeLimited/Act_50/main_mapchoose/main_mapchooseView.lua
+M	res/ui/mobile/globaldata.lua
+
+commit 84c6bba313b2b3129358dc21f9597f7ebb2b60fa
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Thu Mar 16 11:07:50 2023 +0800
+
+    新增版本道具
+
+M	res/csvdef/itemdef.csv
+
+commit f747d638b4e2f13c6347dc10d92fde9559d2033f
+Author: MINIWAN\liuanqi <Lsuannai777>
+Date:   Thu Mar 16 11:02:11 2023 +0800
+
+    修改周年庆自选礼包的描述
+
+M	res/csvdef/itemdef.csv
+
+commit e6e5e186c87363f0d496690dbdbf068910a7dbb1
+Author: MINIWAN\liuanqi <Lsuannai777>
+Date:   Wed Mar 15 19:03:01 2023 +0800
+
+    活动道具icon资源
+
+A	res/items/icon97504.png
+A	res/items/icon97505.png
+
+commit 09c2d012c52fbf9fa99966f36d225c8d1f23e8ab
+Author: MINIWAN\liuanqi <Lsuannai777>
+Date:   Wed Mar 15 18:59:26 2023 +0800
+
+    新增活动道具 魔法币水晶礼券
+
+M	res/csvdef/itemdef.csv
+
+commit 1e5c1d21909302521bb7cf4f086195312792c7a3
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Wed Mar 15 15:30:18 2023 +0800
+
+    【fix】【【七周年派对】活动结束后，甜品派对大厅地图左边的 “开始比赛” 按钮需要一直保留】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071301
+
+M	res/miniui/module/activity/timeLimited/Act_50/AnniActInterface.lua
+M	res/miniui/module/activity/timeLimited/Act_50/main_anniStartGame/main_anniStartGameCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_53/IceSheetActInterface.lua
+M	res/ui/mobile/lobby.lua
+
+commit 75bffcbdd7845c36a826a69a438b3ef88590b422
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Wed Mar 15 14:59:20 2023 +0800
+
+    【fix】【【武器】获得武器皮肤界面，发现模型转速过快】
+    https://www.tapd.cn/22897851/bugtrace/bugs/view/1122897851001070013
+
+M	res/miniui/module/weaponGain/weaponGainCtrl.lua
+
+commit 4d950b8538a6089def6956cb92e1efad0d75cbf3
+Merge: 69c57a8ec6 4c5fe57e4b
+Author: xiaoqiang <xiaoqiang@mini1.cn>
+Date:   Wed Mar 15 11:05:51 2023 +0800
+
+    Merge branch 'feature-kuaishou_bind_full_0222vv' into feature-kuaishou_bind_full_0315v
+    
+    # Conflicts:
+    #       res/csvdef/stringdef.csv
+
+commit a0e8cfc1af9934caade03a466b933f74f0109dbe
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Wed Mar 15 10:57:26 2023 +0800
+
+    【fix】商业化踏春活动-适配问题修复
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+
+commit 6c9c393c86faf40b7afb3aa6544b14a8df34f9db
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Wed Mar 15 10:51:34 2023 +0800
+
+    【fix】商业化踏春换皮活动修改上传
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/list_record.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftGainItem.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	res/miniui/miniworld/act_55_springGiftActivity.fui
+M	res/miniui/miniworld/act_55_springGiftActivity_atlas0.png
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftGainItem/main_springGiftGainItemAutoGen.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftGainItem/main_springGiftGainItemCtrl.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftGainItem/main_springGiftGainItemView.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftLottery/main_springGiftLotteryView.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftMsgBox/main_springGiftMsgBoxView.lua
+M	res/miniui/module/activity/timeLimited/Act_55/main_springGiftStore/main_springGiftStoreView.lua
+
+commit d058e3e9fff343bfdabda1138b03884dd7401483
+Author: guanhaihong <1113766185@qq.com>
+Date:   Tue Mar 14 18:41:44 2023 +0800
+
+    替换贴图
+
+M	res/particles/texture/mdou.png
+
+commit f1c4e5a6cd84a9b73ef8a0fdbbdf88a8caf6301d
+Author: MINIWAN\zhouguinan <man0313@sina.com>
+Date:   Tue Mar 14 18:32:58 2023 +0800
+
+    319
+
+M	res/entity/140319/body.omod
+M	res/entity/140319/male.png
+M	res/entity/140319/male1.png
+M	res/entity/140319/male2.png
+M	res/entity/140319/male3.png
+
+commit 4dde486aa444d54cc5ff974acc63af4124041cb3
+Author: MINIWAN\zhouguinan <man0313@sina.com>
+Date:   Tue Mar 14 17:49:52 2023 +0800
+
+    319
+
+M	res/entity/140319/body.omod
+
+commit 5f9b80ef34159952daa2a05696bdc5a331731588
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Tue Mar 14 16:32:45 2023 +0800
+
+    皮肤更新
+
+M	res/csvdef/roleskin.csv
+
+commit 6feaeafd8adceb2009cc115f3f892df2e1ccba97
+Merge: eff58a4aaa 69c57a8ec6
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Tue Mar 14 16:31:27 2023 +0800
+
+    Merge branch 'release-0315v' into wangyu/bugfix-0315v
+
+commit 69c57a8ec628df65b44cd18d55d25840e8504deb
+Author: lida <lida@mini1.cn>
+Date:   Tue Mar 14 14:55:33 2023 +0800
+
+    commit 2.7.4.7 version utf8 csv files to svn for packing
+
+M	res/csvdef/utf8/CodeBlockConfig.csv
+M	res/csvdef/utf8/CodeBlockEnum.csv
+M	res/csvdef/utf8/CodeBlockParam.csv
+M	res/csvdef/utf8/ResourcePackDef.csv
+M	res/csvdef/utf8/TriggerItem.csv
+M	res/csvdef/utf8/TriggerParam.csv
+M	res/csvdef/utf8/achievement.csv
+M	res/csvdef/utf8/blockdef.csv
+M	res/csvdef/utf8/crafting.csv
+M	res/csvdef/utf8/horse.csv
+M	res/csvdef/utf8/horseability.csv
+M	res/csvdef/utf8/itemdef.csv
+M	res/csvdef/utf8/monster.csv
+M	res/csvdef/utf8/recycle.csv
+M	res/csvdef/utf8/restoload.csv
+M	res/csvdef/utf8/roleskin.csv
+M	res/csvdef/utf8/spraypaint.csv
+M	res/csvdef/utf8/storehorse.csv
+M	res/csvdef/utf8/storeprop.csv
+M	res/csvdef/utf8/stringdef.csv
+M	res/csvdef/utf8/tooldef.csv
+
+commit d36bd31b232eb6b6b7a1ad9c6d6a17685469e763
+Author: fanguicun <fanguicun@mini1.cn>
+Date:   Tue Mar 14 13:28:19 2023 +0800
+
+    act55UI调整
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_award.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_bubble.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_bg.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_fg.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftMsgBox.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/package.xml
+M	res/ui/mobile/texture0/bigtex/act_55_bg.png
+
+commit 0806f59aae22345c3aac8f28dfc202c9226c1810
+Author: fanguicun <fanguicun@mini1.cn>
+Date:   Tue Mar 14 11:08:14 2023 +0800
+
+    act55ui调整
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_props.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_exchange.png
+M	res/ui/mobile/texture0/bigtex/act_55_bg.png
+M	res/ui/mobile/texture0/bigtex/act_55_fg.png
+
+commit 7f2a74fa110991be72d2546d1e69cb963d68c570
+Author: fanguicun <fanguicun@mini1.cn>
+Date:   Mon Mar 13 19:30:21 2023 +0800
+
+    act55UI替换
+
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/AddBtn.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/Component1.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/SubBtn.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_cancel.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_close.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_determine.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_add_ticket.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_all_award.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_buy_max.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_buy_ticket.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_draw_one.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_draw_ten.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_exchange.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_lottery_record.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_recharge_yellow.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_store_exchange.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_tips.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/btn_tipsCheck.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_award.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_prop_label.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/comp_props.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/effect_light2.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/effect_light3.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/effect_stars_w.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/effect_stars_y.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/bar_dark.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/bar_yellow.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/boadr_order.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/board_award_big.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/board_brice.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/board_dark_circle.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_back.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_bigyellow.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_circle.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_content.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_exchange.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_increase.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_middleblue.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_middleyellow.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_middleyellow1.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_minimumblue.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_props.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_record.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/btn_reduce.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/effect_reach.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/frame_select_big.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/icon_close.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/icon_ticket.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/icon_tokens.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_arrow.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_ash.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_board_award.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_board_yellow.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_bubble.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_choice.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_decorate_star.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_input.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_light.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_list.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_shading.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_stars.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_step.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_tick.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_title.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_title_gift.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_title_stars_w.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image/img_title_stars_y.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_54_bg.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_54_img_mount.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_54_img_popup.png
+D	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_54_img_reward_bg.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_bg.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_fg.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_img_avt1.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_img_avt2.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_img_popup.png
+A	miniuidesign/miniworld/assets/act_55_springGiftActivity/image_loader/act_55_img_reward_bg.png
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/item_store.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/list_record.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftGainItem.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftLottery.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftMsgBox.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/main_springGiftStore.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/package.xml
+M	miniuidesign/miniworld/assets/act_55_springGiftActivity/progress_task.xml
+D	"miniuidesign/miniworld/assets/act_55_springGiftActivity/\344\270\264\346\227\266/\346\201\255\345\226\234\350\216\267\345\276\2272.png"
+A	res/ui/mobile/texture0/bigtex/act_55_bg.png
+A	res/ui/mobile/texture0/bigtex/act_55_fg.png
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt1.png
+A	res/ui/mobile/texture0/bigtex/act_55_img_avt2.png
+A	res/ui/mobile/texture0/bigtex/act_55_img_popup.png
+A	res/ui/mobile/texture0/bigtex/act_55_img_reward_bg.png
+
+commit eff58a4aaac76dfb1a9732532df941fc066555f3
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Sat Mar 11 16:18:23 2023 +0800
+
+    【fix】【【武器】商店武器库列表偶现一直显示正在加载资源】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071183
+
+M	res/ui/mobile/mvc/shop/shopHelper/ShopService.lua
+
+commit 53a742e692322abd012f5496528a78623457c4fd
+Merge: 78d9794876 5b0e447859
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 10 10:38:48 2023 +0000
+
+    Merge branch 'feature-developshop_buy_error-1071145' into 'release-0315v'
+    
+    1071145【【触发器内购】开发者地图里，触发器内购商品点击无反应】
+    
+    See merge request minichina/bin_externel!528
+
+commit 78d979487643593fefb870c3e43975a8b4763d23
+Merge: 93de71642d 275ce000bc
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 10 10:28:12 2023 +0000
+
+    Merge branch 'wangyu/bugfix-0315v' into 'release-0315v'
+    
+    【【周年庆活动】退出地图后没有关闭活动界面】
+    
+    See merge request minichina/bin_externel!527
+
+commit 5b0e447859b2d380599156e044dc1868d9c796ca
+Author: jerrywong <jerry_cocos2d@163.com>
+Date:   Fri Mar 10 18:09:48 2023 +0800
+
+    "1071145【【触发器内购】开发者地图里，触发器内购商品点击无反应】
+    https://www.tapd.cn/22897851/bugtrace/bugs/view/1122897851001071145"
+
+M	res/ui/mobile/developerstore.lua
+
+commit 275ce000bc4e96ba875e12e417a084936afe196a
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Fri Mar 10 17:24:06 2023 +0800
+
+    【fix】商业化周年庆活动-退出地图问题修复
+
+M	res/miniui/module/activity/timeLimited/Act_54/ValueBookActivityMgr.lua
+
+commit 3e4aa31e31348b74157d367467eb6f0a9652da70
+Author: WL <1102877025@qq.com>
+Date:   Fri Mar 10 16:39:37 2023 +0800
+
+    修改
+
+M	res/particles/140308_1.emo
+
+commit 982f035f1f08dafeae0db6b48ee30a6caf1c0bce
+Author: MINIWAN\zhouguinan <man0313@sina.com>
+Date:   Fri Mar 10 15:40:22 2023 +0800
+
+    319   2号默认头发
+
+A	res/entity/140319/body.omod
+A	res/entity/140319/hand.omod
+A	res/entity/140319/male.png
+A	res/entity/140319/male1.png
+A	res/entity/140319/male2.png
+A	res/entity/140319/male3.png
+M	res/entity/player/player12/2.omod
+M	res/entity/player/player12/2.png_
+
+commit 19360b24f0516a733b892ebef6f458dd0fe71122
+Merge: 057b0a7fac 93de71642d
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Fri Mar 10 15:03:25 2023 +0800
+
+    Merge branch 'release-0315v' into wangyu/bugfix-0315v
+
+commit 057b0a7fac938e687f52e933d8be0c80fffad592
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Fri Mar 10 15:02:54 2023 +0800
+
+    Revert "定制功能配置"
+    
+    This reverts commit f45190d435552461cd336206d0ae549f4df6a505.
+
+M	res/csvdef/roleskin.csv
+
+commit af7757746c927acae40ce03917c73f9d388ee229
+Author: guanhaihong <1113766185@qq.com>
+Date:   Fri Mar 10 14:26:54 2023 +0800
+
+    皮肤特效上传
+
+A	res/particles/140319_1.emo
+A	res/particles/140319_2.emo
+A	res/particles/texture/mdou.png
+
+commit 93de71642d9f53d6a22ab219df443c141abf8b39
+Merge: 4644b997a9 930669670f
+Author: 李达 <lida@mini1.cn>
+Date:   Fri Mar 10 03:49:27 2023 +0000
+
+    Merge branch 'bugfix-release-0315v-1071069' into 'release-0315v'
+    
+    [BUGFIX]【【组队玩】面对面组队显示组队码显示位数不对】https://www.tapd.cn/22897851/bugtrace/bugs/view...
+    
+    See merge request minichina/bin_externel!526
+
+commit f45190d435552461cd336206d0ae549f4df6a505
+Author: MINIWAN\ouyanghao <ouyanghao@mini1.cn>
+Date:   Fri Mar 10 11:36:42 2023 +0800
+
+    定制功能配置
+
+M	res/csvdef/roleskin.csv
+
+commit 930669670f1b47ab084d684df9dfe9dcc3194b6a
+Author: liwentao <liwentao@mini1.cn>
+Date:   Fri Mar 10 11:05:25 2023 +0800
+
+    [BUGFIX]【【组队玩】面对面组队显示组队码显示位数不对】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug_id=1122897851001071069
+
+M	res/ui/mobile/mvc/teamupOnline/teamupCenter/TeamupMain.xml
+
+commit 4644b997a9bf8742df52ff7f7ce058e0d56d66eb
+Merge: 40fd956514 6073118d7b
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 10:36:26 2023 +0000
+
+    Merge branch 'release-0315v-ugc' into 'release-0315v'
+    
+    修改周年庆活动启动app第一次进地图会进空白地图的问题
+    
+    See merge request minichina/bin_externel!525
+
+commit 6073118d7b552ebe689067499aab2c65af0e835e
+Author: panyunfei <panyunfei@miniwan.com>
+Date:   Thu Mar 9 18:22:52 2023 +0800
+
+    修改周年庆活动启动app第一次进地图会进空白地图的问题
+
+M	res/ui/mobile/JsBridge.lua
+
+commit 40fd956514d3272fb6706c71d5f92742c0d09186
+Merge: dfd2b1eb62 a48151a4ac
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 09:02:59 2023 +0000
+
+    Merge branch 'luoshuai/bugfix-0315v' into 'release-0315v'
+    
+    [bugfix]官方资讯没显示
+    
+    See merge request minichina/bin_externel!524
+
+commit dfd2b1eb62fe20023d9711ed68a495b1d9cfb0d5
+Merge: 5c4c900fe2 e01ab41b61
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 08:48:30 2023 +0000
+
+    Merge branch 'wangyu/bugfix-0315v' into 'release-0315v'
+    
+    Wangyu/bugfix 0315v
+    
+    See merge request minichina/bin_externel!522
+
+commit 5c4c900fe2987364e50f75aff4bfc455b0bf9b2e
+Merge: 0d7fa83031 f9a937fe01
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 08:47:55 2023 +0000
+
+    Merge branch 'release-0315v-ugc' into 'release-0315v'
+    
+    [bugfix]【【工具】代码模板：使用模板时私有变量会重命名，但是没用重命名后的变量】
+    
+    See merge request minichina/bin_externel!523
+
+commit f9a937fe019cba2831b72d37e22081d302f12858
+Author: yangjia <yangjia@mini1.cn>
+Date:   Thu Mar 9 16:40:55 2023 +0800
+
+    [BUGFIX] 切换模式关闭道具使用界面
+
+M	res/miniui/module/ugc/sceneEditor/common/SceneEditorUIInterface.lua
+
+commit 4b228a76ffa7123d0c47f7bcb0a56bc2a74015e6
+Author: wanggengyang <wanggengyang@mini1.cn>
+Date:   Thu Mar 9 16:20:50 2023 +0800
+
+    [bugfix]【【工具】代码模板：使用模板时私有变量会重命名，但是没用重命名后的变量】
+
+M	res/miniui/module/ugc/visualCode/common/VisualCodeDataManager.lua
+
+commit e01ab41b6190abf3610741ff5512647dd9bc74d0
+Merge: a35571d718 0d7fa83031
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 9 15:14:46 2023 +0800
+
+    Merge branch 'release-0315v' into wangyu/bugfix-0315v
+
+commit 0d7fa830314a0f24343daf694bb2c06aad69ca76
+Merge: 81c4c26c00 0c76c33003
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 07:03:18 2023 +0000
+
+    Merge branch 'release-0315v-ugc' into 'release-0315v'
+    
+    Release 0315v ugc
+    
+    See merge request minichina/bin_externel!521
+
+commit 0c76c33003c2b3becf2c39b4144c8a8ec5b5ec24
+Author: yangjia <yangjia@mini1.cn>
+Date:   Thu Mar 9 14:47:10 2023 +0800
+
+    [DEV] 特殊道具联机客机使用
+
+M	res/miniui/module/ugc/sceneEditor/UgcItems/UgcItems.lua
+
+commit 72e269756c7269973f48df7afe73b9bbe44f7260
+Merge: 5ae4c2b26d 81c4c26c00
+Author: hongtao <hongtao@mini1.cn>
+Date:   Thu Mar 9 14:15:37 2023 +0800
+
+    Merge branch 'release-0315v' into release-0315v-ugc
+
+commit 5ae4c2b26d7b36ad3458ffd082b1537a8c94b7a7
+Merge: 1d93ff7054 92c3afe8ab
+Author: yangjia <yangjia@mini1.cn>
+Date:   Thu Mar 9 14:07:41 2023 +0800
+
+    Merge branch 'release-0315v-ugc' of http://client_gitlab.miniworldplus.com:83/minichina/bin_externel into release-0315v-ugc
+
+commit 1d93ff7054cc592f4fee493f3957e29a4cacaa76
+Author: yangjia <yangjia@mini1.cn>
+Date:   Thu Mar 9 14:07:33 2023 +0800
+
+    [DEV] 新引擎bug修复同步  1.俯视角锁定问题 2.自定义生物编辑问题
+
+M	res/miniui/module/ugc/sidebar/ResourceSidebarModel.lua
+M	res/sandboxengine/gameplay/playerctrl/playerinputhelper/PlayerInputHelper.lua
+M	res/ui/mobile/mvc/modsLib/modsLibEditor/modEdit/SingleEditorFrameCtrl.lua
+M	res/ui/mobile/setting.lua
+
+commit a35571d718be34578196473b77920052dad53e01
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 9 14:06:20 2023 +0800
+
+    【fix】周年庆拉收活动-任务上报问题修复
+
+M	res/miniui/module/activity/timeLimited/Act_54/ValueBookActivityMgr.lua
+
+commit 81c4c26c000350038187bb2a13ae9d7d8fff7e7f
+Merge: 7a55ea13e5 92c3afe8ab
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 06:04:38 2023 +0000
+
+    Merge branch 'release-0315v-ugc' into 'release-0315v'
+    
+    [bugfix]【【工具升级】底部栏切换背包后选择框和摆放的物品不一致。】https://www.tapd.cn/22897851/bugtrace/bug...
+    
+    See merge request minichina/bin_externel!520
+
+commit 7a55ea13e52ca1284081a6c44782c3799143aee4
+Merge: 46d9f30a4d bb92b43b41
+Author: 李达 <lida@mini1.cn>
+Date:   Thu Mar 9 06:03:58 2023 +0000
+
+    Merge branch 'bugfix-release-0315v-1069040' into 'release-0315v'
+    
+    [BUGFIX]【【组队玩】组队创建高级创造地图报错】https://www.tapd.cn/22897851/bugtrace/bugs/view?bug...
+    
+    See merge request minichina/bin_externel!519
+
+commit 92c3afe8ab551a7acb9896c46774fe3218df1252
+Merge: 9fce60e8c7 f2feb0a1f5
+Author: xiong2 <xiong2@mini1.cn>
+Date:   Thu Mar 9 12:39:33 2023 +0800
+
+    Merge branch 'release-0315v-ugc' of http://client_gitlab.miniworldplus.com:83/minichina/bin_externel into release-0315v-ugc
+
+commit 9fce60e8c7da642ca77532471f68f17e705a0eda
+Author: xiong2 <xiong2@mini1.cn>
+Date:   Thu Mar 9 12:39:21 2023 +0800
+
+    修改道具分类、排序
+
+M	res/csvdef/itemdef.csv
+
+commit e59aa5c3859a6aeb122cb2a8dbff8dac89da05d2
+Author: MINIWAN\wangyu <wangyu@mini1.cn>
+Date:   Thu Mar 9 12:33:48 2023 +0800
+
+    【fix】周年庆拉收活动-地图任务修改
+
+M	res/miniui/module/activity/timeLimited/Act_54/ValueBookActivityMgr.lua
+M	res/ui/mobile/lobby.lua
