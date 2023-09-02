@@ -1,0 +1,267 @@
+ I can't believe it.
+ It's here.
+ It's time.
+ Hey, what's up guys?
+ My name is Ochino.
+ Welcome to this announcement video because we are about to begin the game engine series.
+ Yes, you heard me right.
+ I can't believe how long it's been.
+ I'm so excited to say this but that's it.
+ The game engine series is ready and it's about to start coming out starting next week.
+ That's it.
+ I'll see you guys next time.
+ No, I'm kidding.
+ But seriously, it's like, I don't know.
+ I've been planning this for like the last two years probably and I've got this massive
+ plan.
+ Everything's ready to go.
+ I've just, I can't wait to get started on this.
+ It's going to be a huge thing for the whole community.
+ It's not going to be just me kind of working on this.
+ It's going to be everyone.
+ It's going to be really in depth, really detailed.
+ There's going to be heaps of just stuff that's going to go into all of the videos.
+ It's just, we're going to build something really, really amazing together and I'm so
+ excited and I just can't wait to actually start this thing.
+ So I'm just so happy right now.
+ I can't even like, I don't know what else to say.
+ In this video, we're just going to go over a little bit about what on earth the game
+ engine series is for those of you who are known, for those of you who might be new to
+ my channel, but that's kind of my only plan really for this series and obviously just
+ to say that that's it.
+ Like it's coming, it's ready, it's going to go up like anytime.
+ It's just like, oh, I just can't wait.
+ So those of you kind of new to my channel, you might have noticed that I kind of am,
+ like this channel is kind of like a programming channel, but it's not just limited to like
+ programming or game programming or anything like that.
+ Actually it's really just a channel that revolves around me and my interests because I love
+ teaching and I love sharing everything that I learn with everyone.
+ That's always been a passion of mine and it doesn't make any sense for me to like teach
+ things that I'm not interested in or things that I'm not currently doing with my life.
+ I am at the moment and for the last almost four years now, I've been a game engine developer
+ at EA, currently working in the Frostbite organization on the mobile engine.
+ So that's my life.
+ That's what I do, right?
+ So I love sharing that with everyone and to be honest, like just teaching has just always
+ been a huge passion of mine.
+ So what this channel really is, is just me kind of talking about my passions, talking
+ about stuff that interests me, whether that be kind of in vlogs or tutorial videos and
+ teaching you guys kind of the same thing that I've learned or just new things that I've
+ picked up or things that I'm realizing because I feel that programming and like, you know,
+ game engine development or game development is like in general has just been like such
+ a, like it's just been, it's been over complicated so, so, so much.
+ And I feel like with the way that I teach, like in a lot of cases, because I do private
+ like sessions as well, very limited, like seriously, because like I'm so busy, but I
+ do have like five or so students who I do teach privately one on one.
+ Just the way that everything clicks for them when I explain something, because I try and
+ kind of simplify it and just be like, well, actually, you know, if you think about it,
+ you know, it's not actually that difficult.
+ Like I just love doing that so much.
+ And that's kind of a reflection of what my channel, I guess is about.
+ It's about kind of me teaching my passions and what the stuff that I'm interested in,
+ in a bit of a, like in a simple way and kind of hope, hopefully in that case, helping a
+ lot of you people out because that's what I love to do.
+ Now what I want to say is that my passions don't lie in game programming at all.
+ Like I don't like games.
+ I'll say that.
+ Like it's as simple as that.
+ I don't, I don't play games in my spare time.
+ I did kind of when I was younger, when I was like a kid, I guess.
+ But like basically as soon as I become, since I became an adult, apart from the occasional
+ like, you know, a game of something multiplayer with friends, like I don't, don't play games
+ in my spare time at all.
+ I'm just not interested in that.
+ I'm not saying that like I'm against that or like games are evil or games are bad.
+ Like it's a waste of time.
+ Just for me personally, I get bored.
+ Like it's just not, I don't, it's not something I enjoy doing really.
+ So of course making games is also something that I don't necessarily enjoy doing.
+ What I am really interested in and what I do enjoy a lot is making game engines.
+ And I actually made a video of Log in Germany recently, which I will link up there, which
+ is about, you know, games versus engines and kind of deciding what it is that you want
+ to make and kind of just talking about the differences.
+ It's so bright out here.
+ And just talking about the differences kind of between, you know, what it's like to make
+ a game versus what it's like to make an engine and all of that.
+ So check out that video if you want kind of to meet me to expand a little bit more about
+ what I'm talking about here, because that's not what this video is about.
+ But the point is like, I don't really like games.
+ I really like making games, but what I do love doing is making engines.
+ And I guess this is kind of what this channel is about.
+ And like, you know, the C++ and the OpenGL stuff that I've been teaching over the last
+ almost two years now has kind of been specifically geared towards, right, let's take all that
+ and let's actually build an engine now.
+ And again, like I am going to, I am titling this the game engine series, right?
+ But it's not really necessarily going to be a game engine.
+ I mean, if you think about what a game engine is and what specifically I want to be building
+ is it's just really like kind of a 3D real time rendering application.
+ That's what it is, right?
+ It's a way, it's an engine to make a 3D real time rendering application, right?
+ What I want to be able to do and an interactive one at that as well, what I want to be able
+ to do is make kind of this framework, this engine so that people can construct real time
+ interactive 3D applications.
+ That is the idea, right?
+ With 3D graphics, that's the idea.
+ So of course you could apply that to games.
+ Absolutely.
+ I mean, a lot of people will.
+ It's going to be very well optimized for kind of, you know, big scenes and lots of entities
+ and all that kind of stuff.
+ And I'll probably throw in, you know, scripting and all of that kind of gameplay related code
+ because that's not necessarily applicable to just games either, right?
+ What we're going to be building is this engine that's capable of so much more than just making
+ games.
+ It's just capable of rendering interactive 3D graphics.
+ Like that's really cool.
+ So I can't wait to kind of build that with everyone.
+ I'll talk a little bit about what it's going to include.
+ I'm not, like we'll have an overview video where we discuss kind of the stages of this
+ whole project.
+ And I'll probably like write kind of on a whiteboard, not really on a whiteboard, like
+ a tablet so that you guys can see.
+ And we'll kind of go through everything step by step.
+ I don't want to really do that now, just off the top of my head because I'm sure I'll miss
+ things and I don't want to pull up notes now.
+ We want to kind of sit down in the studio in the office, if you will, and actually go
+ through that.
+ But that being said, you know, we are going to kind of break down the project and go through
+ everything step by step.
+ But the idea is like we're going to kind of build this thing together.
+ Now over me planning this series, and one of the reasons why it took so long was because
+ it's just such a massively complicated task.
+ Building an engine like this takes years for a whole team of people, right?
+ Now I'm fortunate in the fact that I kind of more or less know what I'm doing because
+ I do have so many years of experience of actually making kind of a game engine and being in
+ a game engine team.
+ So I do know how to make a game engine.
+ I've never really sat down and made a full kind of engine from scratch where I would
+ consider it to the point of like, that's it, we can ship applications with this engine now
+ because it has every, it's fully featured, right?
+ I've never actually done that in my life.
+ I know how everything works and I've done it all separately in different modules, but
+ to combine it all into one huge project, not something that I've really done, right?
+ And that's something that I've just been wanting to do.
+ So this isn't even just necessarily me being like, all right, let's make a series on how
+ to make a game engine.
+ This is me being like, that's it.
+ I want to make a game engine now.
+ I want to make my own engine.
+ I want us to make our own engine, right?
+ From the ground up, but unlike Sparky, which was another engine that I did make about three
+ years ago, three and a half years ago, I think now.
+ Right.
+ Yeah.
+ That, that was kind of more or less, you know, for games specifically.
+ And that was very kind of like quickly put together because it was, I made it in like
+ the base, the base version of it in like 40 days for, for a game programming competition.
+ Like this is going to be like, and because of that, it was kind of me typing code and
+ then explaining some things along the way.
+ Whereas this is going to be a tutorial.
+ Like this is going to take time.
+ It's going to be like slow.
+ It's going to be, it's going to feature me like writing stuff, drawing diagrams for you
+ guys, notes, all of that kind of stuff.
+ It's going to be like a full course almost.
+ Right.
+ It's not going to be just something that I just, you know, whip up and kind of improvise
+ on.
+ It's been planned.
+ It's like this whole thing where I'm actually going to explain everything.
+ And because of that, these videos are going to be long, not necessarily long, but there's
+ going to, it's going to be very detailed and we might not get very far immediately.
+ Like it's going to take a lot of time to actually build this up.
+ And basically it's almost like, like this engine and I'm sure that obviously, obviously
+ in my life, like, oh, probably scrap this eventually, make a new engine as technology
+ continues to improve.
+ And as I get, get smarter and I learn new things as well, obviously we're all, we're
+ all learning new things.
+ Right.
+ But this is almost like just a, almost like a little life project for me.
+ It's just something that I want to do in my life.
+ I want to build a game engine.
+ You guys are going to watch me and I'm also going to like work on it with you guys.
+ And I'm also going to explain everything and teach you what I'm doing, how I'm doing,
+ and we're going to decide things together.
+ So it's going to be a really exciting project and I absolutely can't wait to get this thing
+ started.
+ It's been just, I've been wanting to do this my whole life basically, or my whole kind
+ of YouTube career life.
+ And it's finally happening and I'm so excited.
+ Now you guys are going to come in, in the, in the, in the fact that like I am going to
+ actively work with you guys.
+ This is going to be a public project on GitHub.
+ It's going to be completely free, of course.
+ It's just going to be like up on GitHub.
+ You can look through every commit.
+ You can log issues.
+ There'll be like issue tracking.
+ We'll have like a project because it's like almost like a Trello board that you can have
+ on GitHub now, GitHub project or whatever it's called.
+ We're going to have that full thing set up like a professional game studio.
+ I think people are coming.
+ Anyway, professional games, your professional team, and it's going to be so, so, so cool.
+ That's going to be completely free.
+ So you guys are going to interact with that repository, potentially even get collaborators
+ in to help write the code for this.
+ Because again, it is going to be such a big thing.
+ And because it's such a big project that does kind of require a lot of man hours, a lot
+ of work, obviously I'm going to have to cut corners in some places because I can't just
+ build like unity or unreal by myself while explaining all of it and documenting it on
+ video.
+ That's, that's, that's physically impossible.
+ And I'm not trying to be realistic and be like, that's what I'm going to do.
+ It's not like, for example, with the level editor and game engine tools, that's all going
+ to be kind of built into the actual game runtime, like using I'm gooey because it's not something
+ that I can just be like, okay, I'm going to make a full Windows application that's going
+ to be a level editor with my own UI framework with that's not going to happen.
+ It's impossible, right?
+ Like this stuff takes so much time.
+ So there have been like compromises that I've had to make in order to actually make this
+ project realistic.
+ And I have thought about a lot of them and yeah, I mean like it's, but it's still going
+ to be amazing and I absolutely can't wait.
+ And we are going to be writing a lot of things from scratch.
+ We'll be using libraries obviously and other kind of third party vendor kind of supplied
+ tools and like code frameworks or whatever that's going to happen.
+ Hopefully the wind isn't bad.
+ But overall, a lot of it is going to be written from scratch from the ground up, which is
+ going to be really, really, really exciting.
+ Now if you want to support this project because I do need your help, this is going to take
+ a lot of my time.
+ It already has.
+ So if you want to see this project actually kind of come to life and more of these episodes
+ to go up, I really do need your support.
+ So I do have a Patreon, patreon.com/thechurno.
+ You will get rewards for helping to support of course, such as early access to like game
+ engine source code.
+ The actual project will be on GitHub, will be public, will be free, but you'll get kind
+ of code before it actually goes up.
+ You'll also get experimental development branches, which is like me already having implemented
+ certain features before I make the video about them.
+ Like and that could be months before, right?
+ So you'll kind of see me write the code as I write the code myself before I make videos
+ and all that stuff.
+ And you can also hang out with me on like, um, on Discord.
+ We have like a video chat once a month where we all have all the kind of partner, which
+ is like, there's a tier called partner.
+ All of the partners kind of will kind of hang out in a video chat and we talk about stuff
+ and we even, we've been talking about the game engine series for the last year.
+ So those guys actually know a lot about what I'm, what I'm saying here now, which is pretty
+ cool because you know, that kind of like, I think that's 20 or so partners, they know
+ like everything, which is really cool.
+ And we have like our own partner or in the discord chat and all of that.
+ So you do get a handful of rewards, but most of all, you're just allowing me to kind of
+ maybe work less and, and kind of spend more of my time developing this game engine series,
+ um, because you'll kind of be supporting me financially.
+ So that's just such a, such an amazing thing.
+ Um, and I'm so grateful for the people who have made it realistic for me to actually
+ spend so much of my time on this.
+ Um, so definitely jump on that and let's see, let's see how good, how big of a game engine
+ we can all build together and how good, how good we can make it.
+ Absolutely.
+ Can't wait.
+ I will see you guys next time.
+ Oh, I love all of you.
+ Goodbye.
+ Good bye.
+ Bye!
